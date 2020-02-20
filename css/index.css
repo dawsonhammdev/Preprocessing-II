@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -176,19 +181,43 @@ nav {
   align-items: center;
   height: 90px;
 }
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 nav .logo {
   margin-left: 17.5%;
+}
+@media (max-width: 500px) {
+  nav .logo {
+    margin-left: 0%;
+    margin-top: 1%;
+  }
 }
 nav .main-menu {
   margin-right: 15%;
   display: flex;
   width: 30%;
 }
+@media (max-width: 500px) {
+  nav .main-menu {
+    width: 100%;
+    margin-right: 0%;
+    justify-content: center;
+  }
+}
 nav .main-menu a {
   text-decoration: none;
   color: black;
   padding: 5%;
   font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  nav .main-menu a {
+    padding: 5%;
+  }
 }
 .footer {
   width: 100%;
@@ -207,6 +236,12 @@ nav .main-menu a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .content-section .header {
   text-align: center;
 }
@@ -214,9 +249,21 @@ nav .main-menu a {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 500px) {
+  .home .content-section .text-content {
+    width: 100%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -224,6 +271,11 @@ nav .main-menu a {
 .home .inverse-content {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 500px) {
+  .home .inverse-content {
+    flex-direction: column-reverse;
+  }
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -246,9 +298,20 @@ nav .main-menu a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 70%;
+  }
 }
 .home .btn {
   display: flex;
@@ -261,6 +324,18 @@ nav .main-menu a {
   font-size: 20px;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .home .btn {
+    width: 100%;
+    color: white;
+    background-color: #268178;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+}
 .text-header {
   margin-top: 20px;
+  border-bottom: dashed silver 2px;
 }
