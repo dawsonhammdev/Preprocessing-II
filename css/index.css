@@ -250,6 +250,17 @@ nav .main-menu a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .btn {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  color: white;
+  background-color: #268178;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
 .text-header {
   margin-top: 20px;
 }
