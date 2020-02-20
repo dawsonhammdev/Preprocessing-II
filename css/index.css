@@ -323,6 +323,7 @@ nav .main-menu a {
   padding: 10px 20px;
   font-size: 20px;
   text-align: center;
+  box-shadow: 5px 4px #888888;
 }
 @media (max-width: 500px) {
   .home .btn {
