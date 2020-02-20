@@ -207,6 +207,9 @@ nav .main-menu a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.home .content-section .header {
+  text-align: center;
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -246,4 +249,7 @@ nav .main-menu a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.text-header {
+  margin-top: 20px;
 }
