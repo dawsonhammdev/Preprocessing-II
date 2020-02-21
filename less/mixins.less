@@ -1,1 +1,15 @@
 // Mixins in here
+
+.custom-btn(@width, @color, @background-color, @border-radius, @padding, @font-size, @text-align){
+    width: @width;
+    color: @color;
+    background-color: @background-color;
+    border-radius: @border-radius;
+    padding: @padding;
+    font-size: @font-size;
+    text-align: @text-align;
+}
+
+.box-shadow-mixin (@arguments) {
+    box-shadow: @arguments;
+  }
